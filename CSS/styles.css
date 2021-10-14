@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    /* padding: 20px !important; */
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.fondo_negronegro {
+    background-color: #000;
+}
+
+.fondo_negro {
+    background-color: #444;
+}
+
+.fondo_blanco {
+    background-color: #ffffff;
+}
+
+.negro {
+    color: #444 !important;
+}
+
+.blanco {
+    color: #FFFFFF !important;
+}
+
+.color_placeholder {
+    color: #adb5bd !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#container_video {
+    width: 100rem;
+}
+
+.top_menu {
+    top: 0;
+    position: fixed !important;
+    /* background-color: rgba(0,0,0,0.5) !important; */
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+    align-content: space-around !important;
+    border-radius: 0px !important;
+}
+
+.top_menu_bars {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 0px !important;
+}
+
+.top_menu_bars:hover {
+    color: #FFFFFF !important;
+    color: rgb(13, 110, 253) !important;
+    text-shadow: 1000 !important;
+}
+
+.logo_menu {
+    height: 20px !important;
+    width: auto !important;
+}
+
+#header_video {
+    width: 100vw;
+}
+
+.transparente {
+    background-color: transparent;
+}
+
+.main_container {
+    min-height: 120vh;
+    width:100vw;
+}
+.height_container {
+    height: 120vh;
+}
+.width_container {
+    width: 100vw;
+}
+
+.left_container {
+    width: 45vw;
+}
+
+.right_container {
+    width: 45vw;
+}
+
+.top_container {
+    height: 20vh;
+}
+
+.bottom_container {
+    height: 80vh;
+}
+
+.neurom_logo {
+    height: 350px;
+    width: 350px;
+    border-radius: 45px;
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow: -30px -30px 61px #d4d4d4, 30px 30px 61px #ffffff;
+}
+
+.logo_PC {
+    height: auto;
+    width: 200px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    top: 11px;
+    background-color: #444 !important;
+}
+
+.input_box {
+    width: 90% !important;
+}
+
+.boton {
+    height: 20px;
+    width: 20px;
+}
+
+.logos_botones {
+    border-color: transparent !important;
+}
