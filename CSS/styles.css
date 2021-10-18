@@ -3,31 +3,39 @@
     /* padding: 20px !important; */
     box-sizing: border-box;
     font-weight: 600;
-}
-.fondo_negronegro {
     background-color: #000;
 }
 
-.fondo_negro {
-    background-color: #444;
-}
-
-.fondo_blanco {
-    background-color: #ffffff;
+.fondo_transp {
+    background-color: transparent !important;
 }
 
 .negro {
     color: #444 !important;
 }
 
+.gris {
+    color: #d8d8d8 !important;
+    font-weight: 400 !important;
+}
+
+.lightgris {
+    color: #aaaaaa !important;
+    font-size: 12px !important;
+}
+
 .blanco {
     color: #FFFFFF !important;
 }
 
+.azul {
+    color: #0078f2 !important;
+    font-weight: 700;
+}
+
 .color_placeholder {
-    color: #adb5bd !important;
-    font-size: 13px !important;
-    line-height: 20px !important;
+    font-size: 12px !important;
+    line-height: 25px !important;
 }
 
 body {
@@ -74,13 +82,20 @@ body {
     background-color: transparent;
 }
 
-.main_container {
-    min-height: 120vh;
-    width:100vw;
+.main_container_top {
+    min-height: 100vh;
+    width: 100vw;
 }
+
+.main_container {
+    min-height: 100vh;
+    width: 100vw;
+}
+
 .height_container {
     height: 120vh;
 }
+
 .width_container {
     width: 100vw;
 }
@@ -102,16 +117,39 @@ body {
 }
 
 .neurom_logo {
-    height: 350px;
-    width: 350px;
+    height: 320px;
+    width: 320px;
     border-radius: 45px;
     background: linear-gradient(315deg, #e6e6e6, #ffffff);
-    box-shadow: -30px -30px 61px #d4d4d4, 30px 30px 61px #ffffff;
+}
+
+.neurom_logo2 {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #171718, #1b1b1d);
+    box-shadow: 7px 7px 13px #0c0c0c, -7px -7px 13px #27272a;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px !important;
 }
 
 .logo_PC {
-    height: auto;
+    height: 200px;
     width: 200px;
+}
+
+.logo_bandera {
+    height: 30px;
+    width: auto;
+}
+
+.texto_colombia {
+    font-size: 15px !important;
+    line-height: 25px !important;
+    color: gray !important;
 }
 
 .line {
@@ -121,8 +159,16 @@ body {
     background-color: #444 !important;
 }
 
+.line2 {
+    width: 40%;
+    height: 1px;
+    top: 11px;
+    background-color: #444 !important;
+}
+
 .input_box {
     width: 90% !important;
+    margin-left: 5% !important;
 }
 
 .boton {
@@ -132,4 +178,89 @@ body {
 
 .logos_botones {
     border-color: transparent !important;
+}
+
+.img_pc {
+    width: 70%;
+    height: auto;
+}
+
+.img_bckg {
+    background-image: url(/img/perspective-bg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position-y: 70%;
+    background-position-x: 10%;
+}
+
+.vert_line {
+    width: 0px !important;
+    height: auto !important;
+    top: 110px;
+}
+
+.box_text {
+    background-color: #19191b !important;
+    color: gainsboro;
+    font-size: 14px !important;
+    border-top-left-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+}
+
+.box_text2 {
+    background-color: #e6e6e6 !important;
+    font-size: 14px !important;
+    border-top-left-radius: 55px !important;
+    border-bottom-right-radius: 55px !important;
+    height: 60%;
+}
+
+.box_text3 {
+    background-color: #19191b !important;
+    color: gainsboro;
+    font-size: 14px !important;
+    border-radius: 40px !important;
+
+}
+.box_text4 {
+    background-color: #19191b !important;
+    background-image: url(/img/backg.svg) !important;
+    background-position: right;
+    background-repeat:no-repeat;
+    color: gainsboro;
+    font-size: 14px !important;
+    border-radius: 40px !important;
+    height:200px !important;
+}
+
+ul {
+    list-style-type: none !important;
+}
+
+.logo_comp {
+    height: 80px;
+    width: auto;
+}
+
+.logo_comp2 {
+    height: 70px !important;
+    width: 70px !important;
+}
+.logo_comp3 {
+    font-size: 40px !important;
+}
+
+.dotted_border {
+    border-right: 2px dotted #fff;
+}
+.dotted_border_bottom {
+    border-bottom: 2px dotted #fff;
+}
+.dotted_border_bottom2 {
+    border-bottom: 2px dotted #3b3b3b;
+}
+
+.input_contactanos{
+    background-color: #d8d8d8 !important;
 }

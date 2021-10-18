@@ -6,7 +6,7 @@ v.onplaying = function () {
     document.body.style.overflow = 'hidden';
 };
 
-Executes only when the video ends
+//Executes only when the video ends
 v.onended = function () {
     
     // Enabling the scroller 
