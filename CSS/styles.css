@@ -3,12 +3,12 @@
     /* padding: 20px !important; */
     box-sizing: border-box;
     font-weight: 600;
+}
+
+.fondo_negro{
     background-color: #000;
 }
 
-.fondo_transp {
-    background-color: transparent !important;
-}
 
 .negro {
     color: #444 !important;
@@ -34,7 +34,7 @@
 }
 
 .color_placeholder {
-    font-size: 12px !important;
+    font-size: 10px !important;
     line-height: 25px !important;
 }
 
@@ -100,28 +100,6 @@ body {
     width: 100vw;
 }
 
-.left_container {
-    width: 45vw;
-}
-
-.right_container {
-    width: 45vw;
-}
-
-.top_container {
-    height: 20vh;
-}
-
-.bottom_container {
-    height: 80vh;
-}
-
-.neurom_logo {
-    height: 320px;
-    width: 320px;
-    border-radius: 45px;
-    background: linear-gradient(315deg, #e6e6e6, #ffffff);
-}
 
 .neurom_logo2 {
     height: 160px;
@@ -129,7 +107,7 @@ body {
     border-radius: 50%;
     background: linear-gradient(145deg, #171718, #1b1b1d);
     box-shadow: 7px 7px 13px #0c0c0c, -7px -7px 13px #27272a;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -194,11 +172,6 @@ body {
     background-position-x: 10%;
 }
 
-.vert_line {
-    width: 0px !important;
-    height: auto !important;
-    top: 110px;
-}
 
 .box_text {
     background-color: #19191b !important;
@@ -221,17 +194,26 @@ body {
     color: gainsboro;
     font-size: 14px !important;
     border-radius: 40px !important;
-
+    height: fit-content;
 }
+
 .box_text4 {
     background-color: #19191b !important;
     background-image: url(/img/backg.svg) !important;
     background-position: right;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     color: gainsboro;
     font-size: 14px !important;
     border-radius: 40px !important;
-    height:200px !important;
+    height: 200px !important;
+}
+
+.box_text5 {
+    background-color: #19191b !important;
+    color: gainsboro;
+    font-size: 14px !important;
+    border-radius: 40px !important;
+    height:530px !important;
 }
 
 ul {
@@ -247,20 +229,24 @@ ul {
     height: 70px !important;
     width: 70px !important;
 }
+
 .logo_comp3 {
-    font-size: 40px !important;
+    font-size: 35px !important;
+    margin-top: 18px;
 }
 
 .dotted_border {
     border-right: 2px dotted #fff;
 }
+
 .dotted_border_bottom {
     border-bottom: 2px dotted #fff;
 }
+
 .dotted_border_bottom2 {
     border-bottom: 2px dotted #3b3b3b;
 }
 
-.input_contactanos{
+.input_contactanos {
     background-color: #d8d8d8 !important;
 }
