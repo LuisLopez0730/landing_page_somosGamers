@@ -19,8 +19,8 @@
 
 <body class="d-flex flex-column justify-content-center">
 
-    <header id="container_video" class="main_container_top  negro  dotted_border_bottom2 fondo_negro">
-        <video src="/img/video_header_low.mp4" id="header_video" muted autoplay controls ></video>
+    <header id="container_video" class="main_container_top  negro fondo_negro  dotted_border_bottom2 fondo_negro">
+        <video src="/img/video_header_low.mp4" id="header_video" muted loop autoplay></video>
     </header>
 
     <ul class="nav nav-pills nav-justified top_menu blanco" id="pills-tab" role="tablist">
@@ -208,7 +208,7 @@
                     </div>
                     <label class="form-label">Sientete libre de expresarnos lo que
                         deseas:</label>
-                    <textarea class=" form-control input_contactanos " rows="3"
+                    <textarea id="remark_user" class="form-control input_contactanos " rows="3"
                         placeholder="Danos mas pistas o si no estas seguro de los componentes solo danos aquí una idea y te ayudaremos!"></textarea>
                 </section class="col-7 me-5">
                 <table class="table table-striped blanco">
@@ -259,7 +259,8 @@
                         </h4>
                         <div class="col-12 ms-3">
                             <label for="exampleFormControlTextarea1" class="form-label">En pesos colombianos:</label>
-                            <input id="presupuesto_user" type="text" class="form-control input_contactanos" placeholder="COP$ ">
+                            <input id="presupuesto_user" type="text" class="form-control input_contactanos"
+                                placeholder="COP$ ">
                         </div>
                     </div>
                 </section>
